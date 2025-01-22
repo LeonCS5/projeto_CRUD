@@ -1,0 +1,15 @@
+/* Efeito de hover usando o Bootstrap */
+.form-control:hover {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.form-control:focus {
+    border-color: #0056b3; 
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+    outline: none; 
+}
+
+input.form-control, select.form-control {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
